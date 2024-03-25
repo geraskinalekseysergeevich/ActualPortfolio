@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ActualPortfolio/static/css/main.a0570064.css",
-    "main.js": "/ActualPortfolio/static/js/main.3ab67874.js",
+    "main.js": "/ActualPortfolio/static/js/main.c52d1ddf.js",
     "static/media/one-travel4-full.jpg": "/ActualPortfolio/static/media/one-travel4-full.1a271b4ba7b8e18d851b.jpg",
     "static/media/organic-food1-full.jpg": "/ActualPortfolio/static/media/organic-food1-full.0453d3aeb1fbc99f60ae.jpg",
     "static/media/one-travel1-full.jpg": "/ActualPortfolio/static/media/one-travel1-full.a3267da3d8b191f001de.jpg",
@@ -27,10 +27,10 @@
     "static/media/line-hor.svg": "/ActualPortfolio/static/media/line-hor.17c901bd3ae2a5199ec5573250d25d55.svg",
     "static/media/line-vert.svg": "/ActualPortfolio/static/media/line-vert.6003aca2fd0c81cfa070cd1a1a3dc34d.svg",
     "main.a0570064.css.map": "/ActualPortfolio/static/css/main.a0570064.css.map",
-    "main.3ab67874.js.map": "/ActualPortfolio/static/js/main.3ab67874.js.map"
+    "main.c52d1ddf.js.map": "/ActualPortfolio/static/js/main.c52d1ddf.js.map"
   },
   "entrypoints": [
     "static/css/main.a0570064.css",
-    "static/js/main.3ab67874.js"
+    "static/js/main.c52d1ddf.js"
   ]
 }
