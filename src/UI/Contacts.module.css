@@ -1,0 +1,34 @@
+@media (max-width: 1124px) {
+    .contacts { max-width: 460px; }
+}
+@media (min-width: 1125px) {
+    .contacts { max-width: 950px; }
+}
+@media (max-width: 530px) {
+    .contacts { max-width: 400px; }
+}
+@media (max-width: 450px) {
+    .contacts { max-width: 350px; }
+}
+@media (max-width: 400px) {
+    .contacts { max-width: 290px; }
+}
+.contacts {
+    margin: 0 auto;
+    margin-top: 350px;
+}
+@media (max-width: 680px) {
+    .contacts > p { font-size: 20px; }
+}
+@media (min-width: 681px) {
+    .contacts > p { font-size: 22px; }
+}
+@media (max-width: 480px) {
+    .contacts > p { font-size: 15px; }
+}
+@media (max-width: 400px) {
+    .contacts > p { font-size: 14px; }
+}
+.contacts > p {
+    line-height: 125%;
+}

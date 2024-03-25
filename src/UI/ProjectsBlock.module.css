@@ -1,0 +1,24 @@
+@media (max-width: 1124px) {
+    .projects_block { max-width: 460px; }
+}
+@media (min-width: 1125px) {
+    .projects_block { max-width: 950px; }
+}
+@media (max-width: 530px) {
+    .projects_block { max-width: 400px; }
+}
+@media (max-width: 450px) {
+    .projects_block { max-width: 350px; }
+}
+@media (max-width: 400px) {
+    .projects_block { max-width: 290px; }
+}
+.projects_block {
+    margin: 0 auto;
+    margin-top: 280px;
+    padding-top: 70px; /*для красивого якоря*/
+    gap: 120px;
+}
+.projects_body > *:not(:first-child) {
+    margin-top: 120px;
+}

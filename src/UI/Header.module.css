@@ -1,0 +1,31 @@
+@media (max-width: 1245px) {
+    .header { justify-content: center; }
+}
+@media (min-width: 1246px) {
+    .header { justify-content: flex-end; }
+}
+.header {
+    width: 100%;
+    display: flex;
+    gap: 35px;
+}
+@media (max-width: 480px) {
+    .header > div { font-size: 16px; }
+}
+@media (min-width: 481px) {
+    .header > div { font-size: 22px; }
+}
+@media (max-width: 400px) {
+    .header > div { font-size: 14px; }
+}
+.header > div {
+    color: #CECECE;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header > div:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,32 @@
+.start_text {
+    text-align: center;
+    margin-top: 260px;
+}
+@media (min-width: 681px) {
+    .start_text h1 { font-size: 96px; }
+}
+@media (min-width: 481px) {
+    .start_text p { font-size: 16px; margin-top: 5px; }
+}
+@media (max-width: 680px) {
+    .start_text h1 { font-size: 64px; }
+}
+@media (max-width: 480px) {
+    .start_text h1 { font-size: 48px; }
+    .start_text p { font-size: 13px; margin-top: 12px; }
+}
+@media (max-width: 400px) {
+    .start_text h1 { font-size: 42px; }
+}
+.start_text h1 {
+    text-transform: uppercase;
+    line-height: 100%;
+    font-weight: 700;
+    font-family: Inter;
+}
+.start_text p {
+    text-transform: uppercase;
+    font-family: Inter;
+    font-weight: 400;
+    color: #808080;
+}

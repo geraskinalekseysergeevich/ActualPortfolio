@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .side_links {
+        display: none;
+    }
+}
+@media (min-width: 769px) {
+    .side_links {
+        display: flex;
+    }
+}
+.side_links {
+    flex-direction: column;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    gap: 20px;
+}
+.side_links > a {
+    transition: all 0.3s ease-in-out;
+}
+.side_links > a:hover {
+    transform: scale(1.3);
+}

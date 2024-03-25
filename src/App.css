@@ -1,0 +1,86 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+a { text-decoration: none; }
+ul, ol, li { list-style: none; }
+img { vertical-align: text-top; }
+h1, h2, h3, h4, h5, h6 { 
+	font-weight: inherit;
+	font-size: inherit;
+}
+html, body {
+    min-height: 100vh;
+    line-height: 1;
+    background-color: #1C1C1C;
+    color: #d6d6d6;
+    font-family: Gilroy;
+    font-weight: 400;
+}
+#root {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.app__container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 40px auto;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+}
+
+/*======================================================================================================*/
+
+@media (max-width: 768px) {
+    .image-gallery-thumbnail { width: 100px !important; }
+}
+@media (min-width: 769px) {
+    .image-gallery-thumbnail { width: 100px !important; }
+}
+@media (max-width: 450px) {
+    .image-gallery-thumbnail { width: 80px !important;}
+}
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+    display: flex;
+    justify-content: space-between;
+}
+.image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
+    border: 4px solid #5c5c5c !important;
+}
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+    margin-top: 15px;
+}
+.image-gallery-icon {
+    color: #7E7E7E !important;
+    filter: none !important;
+}
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+    width: 20px !important;
+    height: auto !important;
+}
+.image-gallery-left-nav, .image-gallery-right-nav {
+    padding: 0 5px !important;
+}
+.image-gallery-thumbnail:hover{ 
+    border: 4px solid #5c5c5c !important;
+}
+@media (max-width: 530px) {
+    .image-gallery { width: 400px !important; }
+}
+@media (min-width: 531px) {
+    .image-gallery { width: 460px !important; }
+}
+@media (max-width: 450px) {
+    .image-gallery { width: 350px !important; }
+}
+@media (max-width: 400px) {
+    .image-gallery { width: 280px !important; }
+}
+.image-gallery-icon:hover .image-gallery-svg {
+    transform: scale(1.2) !important;
+    transition: all 0.3s ease-in-out !important;
+}

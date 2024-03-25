@@ -1,0 +1,32 @@
+@media (max-width: 1124px) {
+    .footer { max-width: 550px; }
+}
+@media (min-width: 1125px) {
+    .footer { max-width: 950px; }
+}
+@media (max-width: 600px) {
+    .footer { max-width: 460px; }
+}
+@media (max-width: 480px) {
+    .footer { max-width: 400px; }
+    .footer p { font-size: 12px; }
+}
+@media (max-width: 430px) {
+    .footer { max-width: 350px; }
+}
+@media (max-width: 370px) {
+    .footer { max-width: 300px; }
+    .footer p { font-size: 11px; }
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    margin: 0 auto;
+    margin-top: 350px;
+}
+.footer > p:last-child {
+    text-align: right;
+}
+.footer > p.year {
+    text-align: center;
+}

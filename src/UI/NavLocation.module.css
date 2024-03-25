@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    .nav_location {
+        display: none;
+    }
+}
+.nav_location > p {
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    font-size: 18px;
+    opacity: 30%;
+    margin: 7px 0;
+}
+.nav_location {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+}
+.nav_location > img {
+    margin-left: 7px;
+}
