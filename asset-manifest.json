@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ActualPortfolio/static/css/main.a0570064.css",
-    "main.js": "/ActualPortfolio/static/js/main.c52d1ddf.js",
+    "main.css": "/ActualPortfolio/static/css/main.c1cab1e0.css",
+    "main.js": "/ActualPortfolio/static/js/main.3ab67874.js",
     "static/media/one-travel4-full.jpg": "/ActualPortfolio/static/media/one-travel4-full.1a271b4ba7b8e18d851b.jpg",
     "static/media/organic-food1-full.jpg": "/ActualPortfolio/static/media/organic-food1-full.0453d3aeb1fbc99f60ae.jpg",
     "static/media/one-travel1-full.jpg": "/ActualPortfolio/static/media/one-travel1-full.a3267da3d8b191f001de.jpg",
@@ -22,15 +22,21 @@
     "static/media/kembang-flowers4-full.jpg": "/ActualPortfolio/static/media/kembang-flowers4-full.f64a6727ef0e4ba55e3c.jpg",
     "static/media/organic-food4-full.jpg": "/ActualPortfolio/static/media/organic-food4-full.2a6a24e799efa338440e.jpg",
     "static/media/sport-track4-full.jpg": "/ActualPortfolio/static/media/sport-track4-full.d12a29f44ca1cc9c696e.jpg",
+    "static/media/Gilroy-Medium.woff": "/ActualPortfolio/static/media/Gilroy-Medium.5329bc502cdc219ad294.woff",
+    "static/media/Gilroy-Semibold.woff": "/ActualPortfolio/static/media/Gilroy-Semibold.5b042906a8b58ec4633e.woff",
+    "static/media/Gilroy-Regular.woff": "/ActualPortfolio/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "static/media/Gilroy-Medium.woff2": "/ActualPortfolio/static/media/Gilroy-Medium.acd4e613de34a826c191.woff2",
+    "static/media/Gilroy-Semibold.woff2": "/ActualPortfolio/static/media/Gilroy-Semibold.7726b19d33f1b7f4135a.woff2",
+    "static/media/Gilroy-Regular.woff2": "/ActualPortfolio/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
     "static/media/organic-food1-small.jpg": "/ActualPortfolio/static/media/organic-food1-small.fdc8f0930a2d8f914094.jpg",
     "index.html": "/ActualPortfolio/index.html",
     "static/media/line-hor.svg": "/ActualPortfolio/static/media/line-hor.17c901bd3ae2a5199ec5573250d25d55.svg",
     "static/media/line-vert.svg": "/ActualPortfolio/static/media/line-vert.6003aca2fd0c81cfa070cd1a1a3dc34d.svg",
-    "main.a0570064.css.map": "/ActualPortfolio/static/css/main.a0570064.css.map",
-    "main.c52d1ddf.js.map": "/ActualPortfolio/static/js/main.c52d1ddf.js.map"
+    "main.c1cab1e0.css.map": "/ActualPortfolio/static/css/main.c1cab1e0.css.map",
+    "main.3ab67874.js.map": "/ActualPortfolio/static/js/main.3ab67874.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0570064.css",
-    "static/js/main.c52d1ddf.js"
+    "static/css/main.c1cab1e0.css",
+    "static/js/main.3ab67874.js"
   ]
 }
