@@ -22,11 +22,11 @@
     text-transform: uppercase;
     line-height: 100%;
     font-weight: 700;
-    font-family: Inter;
+    font-family: 'Inter';
 }
 .start_text p {
     text-transform: uppercase;
-    font-family: Inter;
+    font-family: 'Inter';
     font-weight: 400;
     color: #808080;
 }

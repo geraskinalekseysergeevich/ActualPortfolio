@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import WebFont from 'webfontloader';
 import './App.css';
 import About from './components/About';
 import Header from './components/Header';
@@ -17,6 +18,14 @@ function App() {
     const aboutRef = useRef(null);
     const projectsRef = useRef(null);
     const contactsRef = useRef(null)
+
+    useEffect(() => {
+        WebFont.load({
+          google: {
+            families: ['Inter', 'Gilroy']
+          }
+        });
+       }, []);
 
     useEffect(() => {
         const handleScroll = () => {
