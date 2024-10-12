@@ -1,7 +1,53 @@
 const projects = {
+    dorateam: {
+        title: 'dorateam',
+        body: 'Призовой проект хакатона ЛЦТ 2024 от\u00A0команды dorateam, трек 4. Решение создано для автоматизации процесса подбора и\u00A0анализа земельных участков в\u00A0Москве. Из\u00A0ключевых технологий на стороне frontend использовался инструмент React-leaflet для\u00A0создания интеративных карт с\u00A0помощью отрисовки полигонов.',
+        images: [
+            {
+                original: require('./source/dorateam/dorateam1-full.jpg'),
+                thumbnail: require('./source/dorateam/dorateam1-small.jpg')
+            },
+            {
+                original: require('./source/dorateam/dorateam2-full.jpg'),
+                thumbnail: require('./source/dorateam/dorateam2-small.jpg')
+            },
+            {
+                original: require('./source/dorateam/dorateam3-full.jpg'),
+                thumbnail: require('./source/dorateam/dorateam3-small.jpg')
+            },
+            {
+                original: require('./source/dorateam/dorateam4-full.jpg'),
+                thumbnail: require('./source/dorateam/dorateam4-small.jpg')
+            },
+        ],
+        link: 'https://github.com/GoshkaLP/lct4_dorateam24'
+    },
+    turing: {
+        title: 'turing',
+        body: 'Проект создан при прохождении практики в\u00A0Газпром ЦПС совместно с командой студентов-разработчиков под руководством старших программистов. Сервис, использующий ИИ, реализован для\u00A0корпоративного использования внутри Газпром.',
+        images: [
+            {
+                original: require('./source/turing/turing1-full.jpg'),
+                thumbnail: require('./source/turing/turing1-small.jpg')
+            },
+            {
+                original: require('./source/turing/turing2-full.jpg'),
+                thumbnail: require('./source/turing/turing2-small.jpg')
+            },
+            {
+                original: require('./source/turing/turing3-full.jpg'),
+                thumbnail: require('./source/turing/turing3-small.jpg')
+            },
+            {
+                original: require('./source/turing/turing4-full.jpg'),
+                thumbnail: require('./source/turing/turing4-small.jpg')
+            }
+        ],
+        link: 'https://github.com/geraskinalekseysergeevich/Turing'
+    },
     sportTrack: {
         title: 'sporttrack',
-        body: 'Веб-приложение, предназначенное для\u00A0создания персонализированных тренировочных программ, их\u00A0проведения, учета потребляемых продуктов питания, а\u00A0также отслеживания своего прогресса с\u00A0помощью графиков. Серверная часть проекта написана на Node.js и\u00A0использует базу данных MongoDB. Front-end реализован с\u00A0помощью фреймворка React JS и сторонних библиотек.',
+        body: 'Веб-приложение, предназначенное для\u00A0создания персонализированных тренировочных программ, их\u00A0проведения, учета потребляемых продуктов питания, а\u00A0также отслеживания своего прогресса с\u00A0помощью графиков. Серверная часть проекта написана на Node.js и\u00A0использует базу данных MongoDB. Frontend реализован с\u00A0помощью фреймворка React JS и сторонних библиотек.',
         images: [
             {
                 original: require('./source/sport-track/sport-track1-full.jpg'),

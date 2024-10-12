@@ -11,11 +11,10 @@ import Footer from './components/Footer';
 
 
 function App() {
-
     const [scrollPosition, setScrollPosition] = useState(0)
     const [currentSection, setCurrentSection] = useState('главная')
-    const aboutRef = useRef(null);
-    const projectsRef = useRef(null);
+    const aboutRef = useRef(null)
+    const projectsRef = useRef(null)
     const contactsRef = useRef(null)
 
     useEffect(() => {
@@ -27,9 +26,9 @@ function App() {
                 setCurrentSection('главная');
             } else if (newPosition >= 300 && newPosition < 900) {
                 setCurrentSection('обо мне');
-            } else if (newPosition >= 900 && newPosition < 3700) {
+            } else if (newPosition >= 900 && newPosition < 4400) {
                 setCurrentSection('проекты');
-            } else if (newPosition > 3700) {
+            } else if (newPosition > 4400) {
                 setCurrentSection('контакты')
             }
         };

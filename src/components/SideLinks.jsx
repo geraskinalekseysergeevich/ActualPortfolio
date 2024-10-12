@@ -1,7 +1,7 @@
 import React from 'react';
-import whats_app_logo from '../source/links-icons/whats-app.png';
-import telegram_logo from '../source/links-icons/telegram.png';
-import mail_logo from '../source/links-icons/mail.png';
+import whats_app_logo from '../source/links-icons/whats-app.svg';
+import telegram_logo from '../source/links-icons/telegram.svg';
+import mail_logo from '../source/links-icons/mail.svg';
 import classes from '../UI/SideLinks.module.css';
 
 const SideLinks = () => {
